@@ -71,9 +71,21 @@ header h1 {
 
 .info p {
   font-weight: 200;
-
 }
 
-.info {
-
+/*#orientation-canvas {
+  width: 100%;
+  height: 300px;
 }
+
+@media (min-height: 600px) {
+  #orientation-canvas {
+    height: 400px;
+  }
+}
+
+@media (min-height: 800px) {
+  #orientation-canvas {
+    height: 600px;
+  }
+}*/

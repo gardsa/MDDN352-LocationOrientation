@@ -6,15 +6,16 @@
     <title>MDDN 352</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
-    <script src="js/scripts.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/orientation.js"></script>
   </head>
   <body>
     <header>
       <h1>Location and Orientation</h1>
     </header>
 
+    <div id="map"></div>
     <div class="location">
-      <div id="map"></div>
       <div class="info">
         <p>Latitude: <span id="lat"></span></p>
         <p>Longitude: <span id="lng"></span></p>
@@ -23,6 +24,7 @@
     </div>
     <div>
       <h2>Orientation</h2>
+      <canvas id="orientation-canvas" width="360" height="450" style="border:1px solid #d3d3d3;"></canvas>
     </div>
     <div>
       <h2>Intergration</h2>

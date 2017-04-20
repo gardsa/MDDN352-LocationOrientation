@@ -24,7 +24,6 @@ function getLocation() {
 }
 
 function locationFound(position){
-  console.log('success');
   userLocation = {lat: position.coords.latitude, lng: position.coords.longitude};
   addMarker(userLocation);
   getLocationInfo(userLocation);
@@ -55,7 +54,6 @@ function findAddress(userLocation) {
   geocoder.geocode({'location': userLocation}, function(results, status) {
     if (status === 'OK') {
       if (results[0]) {
-        console.log(results);
         addr.innerHTML = results[0].formatted_address;
       }
       else {
