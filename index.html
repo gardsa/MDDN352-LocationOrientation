@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MDDN 352</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Location and Orientation</h1>
+    </header>
+
+    <div class="location">
+      <div id="map"></div>
+      <div class="info">
+        <p>Latitude: <span id="lat"></span></p>
+        <p>Longitude: <span id="lng"></span></p>
+        <p>Nearest Address: <p id="addr"></p></p>
+      </div>
+    </div>
+    <div>
+      <h2>Orientation</h2>
+    </div>
+    <div>
+      <h2>Intergration</h2>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr-jhOG9YeQuhpdg2sN5hFtTsGgUEZQTc&callback=initMap"></script>
+  </body>
+</html>
