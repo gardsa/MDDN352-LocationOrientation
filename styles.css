@@ -16,7 +16,7 @@ header h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.25em;
   letter-spacing: .1875em;
@@ -38,11 +38,11 @@ header h1 {
   }
 }
 
-.location {
+.location, .orientation {
   width: 100%;
   line-height: 1.25em;
   letter-spacing: .1875em;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -66,26 +66,13 @@ header h1 {
 
 .info {
   padding: 1em;
-  background-color: rgba(255, 255, 255, 0.75);
 }
 
-.info p {
-  font-weight: 200;
+h2, p {
+  font-weight: 400;
 }
 
-/*#orientation-canvas {
-  width: 100%;
-  height: 300px;
+.canvas-container {
+  width: 320px;
+  margin: 0 auto;
 }
-
-@media (min-height: 600px) {
-  #orientation-canvas {
-    height: 400px;
-  }
-}
-
-@media (min-height: 800px) {
-  #orientation-canvas {
-    height: 600px;
-  }
-}*/

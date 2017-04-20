@@ -28,7 +28,7 @@ function locationFound(position){
   addMarker(userLocation);
   getLocationInfo(userLocation);
   map.setCenter(userLocation);
-  map.setZoom(10);
+  map.setZoom(15);
 }
 
 function addMarker(userLocation) {

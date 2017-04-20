@@ -43,9 +43,10 @@ function deviceOrientationListener(event){
   ctx.fillRect(90, 340, 180, event.beta);
 
   ctx.fillStyle = "#141414";
-  ctx.fillText("Alpha: " + event.alpha, 10, 20);
-  ctx.fillText("Beta: " + event.beta, 10, 140);
-  ctx.fillText("Gamma: " + event.gamma, 10, 270);
+  ctx.textAlign="center";
+  ctx.fillText("Alpha: " + Math.round(event.alpha), 160, 20);
+  ctx.fillText("Beta: " + Math.round(event.beta), 160, 140);
+  ctx.fillText("Gamma: " + Math.round(event.gamma), 160, 270);
   ctx.beginPath();
   ctx.fillRect(180, 150, event.gamma, 90);
 }
